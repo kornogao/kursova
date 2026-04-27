@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KEVIN — Онлайн-школа підготовки до НМТ 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="dots-bg"></div>
+<div id="progress-bar"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#top">
+  <img src="img/logo.png" alt="KEVIN" style="height: 40px; width: auto; display: block;">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#why">Переваги</a></li>
+    <li><a href="#teachers">Предмети</a></li>
+    <li><a href="#courses">Курси</a></li>
+    <li><a href="#reviews">Відгуки</a></li>
+    <li><a href="#route">Маршрут</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <div class="nav-cta">
+    <a href="tel:+380733046449" class="btn btn-ghost" style="font-size:12px; padding:10px 18px;">073 304 64 49</a>
+    <a href="#form" class="btn btn-primary">Записатися</a>
+  </div>
+  <button class="menu-toggle">☰</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-aurora">
+    <div class="aurora-blob aurora-blob-1"></div>
+    <div class="aurora-blob aurora-blob-2"></div>
+    <div class="aurora-blob aurora-blob-3"></div>
+  </div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <h1>Підготовка до НМТ<br>на <span class="accent">200 балів</span><br>без стресу</h1>
+    <p>Онлайн-школа KEVIN — 8 років досвіду, понад 16&nbsp;000 випускників та гарантований результат +55 балів або повернення коштів. Пробне заняття — безкоштовно.</p>
+    <div class="hero-actions">
+      <a href="#form" class="btn btn-primary">Приєднатися до курсу &nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d1b2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></a>
+      <a href="#form" class="btn btn-outline">Пробний урок безкоштовно</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num"><span>16к+</span></div>
+        <div class="stat-label">випускників</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">180<span>/200</span></div>
+        <div class="stat-label">середній бал</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num"><span>147</span></div>
+        <div class="stat-label">учнів на 200</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num"><span>8+</span></div>
+        <div class="stat-label">років досвіду</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-img-wrap">
+      <img src="img/kevin.png" alt="KEVIN School">
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-inner">
+    <span class="ticker-item">147 учнів на 200 балів</span>
+    <span class="ticker-item">Гарантія +55 балів</span>
+    <span class="ticker-item">16 000+ випускників</span>
+    <span class="ticker-item">8 років досвіду</span>
+    <span class="ticker-item">Уроки з Авраменком</span>
+    <span class="ticker-item">Куратор 24/7</span>
+    <span class="ticker-item">до 150 грн за урок</span>
+    <span class="ticker-item">Пробне заняття безкоштовно</span>
+    <span class="ticker-item">147 учнів на 200 балів</span>
+    <span class="ticker-item">Гарантія +55 балів</span>
+    <span class="ticker-item">16 000+ випускників</span>
+    <span class="ticker-item">8 років досвіду</span>
+    <span class="ticker-item">Уроки з Авраменком</span>
+    <span class="ticker-item">Куратор 24/7</span>
+    <span class="ticker-item">до 150 грн за урок</span>
+    <span class="ticker-item">Пробне заняття безкоштовно</span>
+  </div>
+</div>
+
+<!-- WHY -->
+<section class="why-section" id="why">
+  <div class="section-eyebrow">Чому KEVIN</div>
+  <div class="section-title" style="color:var(--white)">Найкращий вибір для<br>підготовки до НМТ</div>
+  <div class="section-sub">Ми не просто навчаємо — ми будуємо стратегію успіху для кожного учня, від діагностики до результату.</div>
+  <div class="why-grid">
+    <div class="why-card reveal">
+      <div class="why-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw-icon lucide-refresh-cw"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+      </div>
+      <h3>Система «перевернутий клас»</h3>
+      <p>Спершу дивишся короткі відео до 15 хвилин, потім закріплюєш знання на живому онлайн-практикумі з викладачем.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+      </div>
+      <h3>Гарантія +55 балів</h3>
+      <p>Ми настільки впевнені в системі, що повертаємо кошти, якщо результат не покращиться. Середній приріст — 55 балів.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hand-coins-icon lucide-hand-coins"><path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"/><path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9"/><path d="m2 16 6 6"/><circle cx="16" cy="9" r="2.9"/><circle cx="6" cy="5" r="3"/></svg>
+      </div>
+      <h3>Доступна ціна</h3>
+      <p>Вартість одного уроку — до 150 грн. Включено все: записи занять, конспекти, зошити, шпаргалки та доступ до платформи.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-icon lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
+      </div>
+      <h3>Викладачі-практики</h3>
+      <p>Кожен викладач — дипломований фахівець, який щороку сам складає НМТ на 200 балів. Знають усі нюанси зсередини.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain-icon lucide-brain"><path d="M12 18V5"/><path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"/><path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"/><path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"/><path d="M18 18a4 4 0 0 0 2-7.464"/><path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"/><path d="M6 18a4 4 0 0 1-2-7.464"/><path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"/></svg>
+      </div>
+      <h3>Психолог і куратор</h3>
+      <p>Персональний куратор мотивує та допомагає з організацією. Психологи проводять лекції про подолання стресу.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-handshake-icon lucide-handshake"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg></div>
+      <h3>Партнерство з Авраменком</h3>
+      <p>Два ексклюзивні онлайн-уроки з Олександром Авраменком — Заслуженим працівником освіти України. Тільки для учнів KEVIN.</p>
+    </div>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<section class="numbers-section">
+  <div class="numbers-row">
+    <div class="number-block reveal">
+      <div class="number-val"><span>8+</span></div>
+      <div class="number-label">років досвіду підготовки до НМТ</div>
+    </div>
+    <div class="number-block reveal">
+      <div class="number-val"><span>16к+</span></div>
+      <div class="number-label">випускників довірили нам підготовку</div>
+    </div>
+    <div class="number-block reveal">
+      <div class="number-val"><span>6646</span></div>
+      <div class="number-label">учнів склали НМТ на 180+ балів</div>
+    </div>
+    <div class="number-block reveal">
+      <div class="number-val"><span>147</span></div>
+      <div class="number-label">досягли максимальних 200 балів</div>
+    </div>
+  </div>
+</section>
+
+<!-- SUBJECTS + TEACHERS -->
+<section class="teachers-section" id="teachers">
+  <div class="section-eyebrow">Предмети і викладачі</div>
+  <div class="section-title">Твої майбутні вчителі</div>
+  <div class="section-sub">Молоді дипломовані фахівці, які щороку самі складають НМТ на 200 балів. Кожен — справжній профі у своєму предметі.</div>
+  <div class="teacher-cards-grid">
+
+    <!-- Математика -->
+    <div class="teacher-card tc-5 reveal">
+      <div class="teacher-photo-square">
+        <img src="img/nastya.png" alt="Анастасія">
+      </div>
+      <div class="teacher-info">
+        <div class="teacher-name">Анастасія</div>
+        <div class="teacher-subject">📐 Математика</div>
+        <div class="teacher-desc">НПУ ім. Драгоманова, системний підхід до кожної теми — від алгебри до геометрії.</div>
+        <div class="teacher-stat"><strong>300+</strong> учнів · НМТ 200 щороку</div>
+      </div>
+    </div>
+
+    <!-- Українська мова -->
+    <div class="teacher-card tc-2 reveal">
+      <div class="teacher-photo-square">
+        <img src="img/darya.png" alt="Дар'я">
+      </div>
+      <div class="teacher-info">
+        <div class="teacher-name">Дар'я</div>
+        <div class="teacher-subject">📝 Українська мова</div>
+        <div class="teacher-desc">Від фонетики і синтаксису до орфографії. Плюс 2 уроки з Олександром Авраменком.</div>
+        <div class="teacher-stat"><strong>2904</strong> учні · <strong>60+</strong> учнів на 200</div>
+      </div>
+    </div>
+
+    <!-- Біологія -->
+    <div class="teacher-card tc-3 reveal">
+      <div class="teacher-photo-square">
+        <img src="img/sonya.png" alt="Соня">
+      </div>
+      <div class="teacher-info">
+        <div class="teacher-name">Соня</div>
+        <div class="teacher-subject">🔬 Біологія</div>
+        <div class="teacher-desc">Вміє пояснити складні процеси простими словами. Методика «розуміти, а не зазубрювати».</div>
+        <div class="teacher-stat"><strong>924</strong> учні · НМТ 200 щороку</div>
+      </div>
+    </div>
+
+    <!-- Історія України -->
+    <div class="teacher-card tc-1 reveal">
+      <div class="teacher-photo-square">
+        <img src="img/vika.png" alt="Віка">
+      </div>
+      <div class="teacher-info">
+        <div class="teacher-name">Віка</div>
+        <div class="teacher-subject">🏛 Історія України</div>
+        <div class="teacher-desc">Структуровані конспекти, авторські таблиці та мнемонічні прийоми для дат і подій.</div>
+        <div class="teacher-stat"><strong>3255</strong> випускників · Середній бал <strong>187+</strong></div>
+      </div>
+    </div>
+
+    <!-- Англійська мова -->
+    <div class="teacher-card tc-4 reveal">
+      <div class="teacher-photo-square">
+        <img src="img/maria.png" alt="Марія">
+      </div>
+      <div class="teacher-info">
+        <div class="teacher-name">Марія</div>
+        <div class="teacher-subject">🇬🇧 Англійська мова</div>
+        <div class="teacher-desc">Сертифікат PTE Academic (Лондон), 5+ років підготовки до міжнародних іспитів.</div>
+        <div class="teacher-stat">Сертифікат PTE · <strong>5+ років</strong> досвіду</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="courses-section" id="courses">
+  <div class="section-eyebrow">Формати навчання</div>
+  <div class="section-title">Оберіть свій шлях до 200</div>
+  <div class="section-sub">Для 10-го і 11-го класу — різні стратегії. Обидві ведуть до результату.</div>
+  <div class="courses-grid">
+    <div class="course-card reveal">
+      <div class="course-tag">10 клас · PRO</div>
+      <h3>2 роки системної підготовки</h3>
+      <div style="display:inline-flex;align-items:baseline;gap:4px;margin-bottom:14px;"><span style="font-size:32px;font-weight:900;color:var(--navy);letter-spacing:-1.5px;line-height:1;">~150</span><span style="font-size:13px;color:var(--gray);font-weight:500;">грн / урок · все включено</span></div>
+      <p class="course-desc">Системна підготовка без стресу та перевантажень. П'ять предметів за ціною трьох.</p>
+      <ul class="course-features">
+        <li>5 предметів — українська, математика, історія + англійська та біологія в подарунок</li>
+        <li>2 рази на тиждень теоретичні відео (до 15 хв) + онлайн-практикуми</li>
+        <li>Уроки з Олександром Авраменком двічі на місяць</li>
+        <li>Щомісячні зрізи знань та пробні НМТ</li>
+        <li>Гейміфікація — бали за активність і призи</li>
+        <li>Персональний куратор + психолог</li>
+      </ul>
+      <a href="#form" class="btn btn-outline" style="width:100%; justify-content:center;">Долучитися до курсу</a>
+    </div>
+    <div class="course-card featured reveal">
+      <div class="course-tag">11 клас · PRO</div>
+      <h3>1 рік інтенсивної підготовки</h3>
+      <div style="display:inline-flex;align-items:baseline;gap:4px;margin-bottom:14px;"><span style="font-size:32px;font-weight:900;color:var(--gold);letter-spacing:-1.5px;line-height:1;">~150</span><span style="font-size:13px;color:rgba(255,255,255,0.45);font-weight:500;">грн / урок · все включено</span></div>
+      <p class="course-desc">За 6–9 місяців до іспиту. Для тих, хто націлений на бюджет.</p>
+      <ul class="course-features">
+        <li>5 предметів комплексно — україн., матем., істор., англ., біол.</li>
+        <li>4–5 теоретичних мініуроків/міс + 4 онлайн-практикуми</li>
+        <li>Уроки з Авраменком двічі на місяць</li>
+        <li>Пробні НМТ кожні 2 місяці</li>
+        <li>Авторські конспекти, зошити, шпаргалки</li>
+        <li>Куратор 24/7 + лекції психолога</li>
+      </ul>
+      <a href="#form" class="btn btn-primary" style="width:100%; justify-content:center;">Долучитися до курсу</a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- HOW -->
+<section class="how-section" id="how">
+  <div class="section-eyebrow">Як це працює</div>
+  <div class="section-title">4 кроки до твого 200</div>
+  <div class="steps-grid">
+    <div class="step reveal">
+      <div class="step-num">1</div>
+      <h4>Безкоштовна діагностика</h4>
+      <p>Безкоштовний освітній аудит — пробне тестування у форматі НМТ та онлайн-зустріч у ZOOM з батьками. Ринкова ціна — 800 грн.</p>
+    </div>
+    <div class="step reveal">
+      <div class="step-num">2</div>
+      <h4>Індивідуальний план</h4>
+      <p>Персональна дорожня карта підготовки з урахуванням рівня, цільового балу та часу до іспиту.</p>
+    </div>
+    <div class="step reveal">
+      <div class="step-num">3</div>
+      <h4>Системне навчання</h4>
+      <p>Відео-теорія + онлайн-практикум, домашні завдання з автоперевіркою та пробні НМТ кожні 2 місяці.</p>
+    </div>
+    <div class="step reveal">
+      <div class="step-num">4</div>
+      <h4>Результат на іспиті</h4>
+      <p>Гарантія +55 балів або повернення коштів. Понад 6 646 учнів вже мають 180+.</p>
+    </div>
+  </div>
+</section>
+
+<!-- INTERACTIVE ROUTE TEST -->
+<section class="route-section" id="route">
+  <div class="section-eyebrow">Персональний маршрут</div>
+  <div class="section-title">Інтерактивний маршрут підготовки до НМТ</div>
+  <div class="section-sub">Дай відповідь на 5 питань — і ми побудуємо персональний план підготовки саме для тебе.</div>
+  <div class="route-card reveal">
+    <div class="route-progress" id="routeProgress">
+      <div class="route-dot current"></div>
+      <div class="route-dot"></div>
+      <div class="route-dot"></div>
+      <div class="route-dot"></div>
+      <div class="route-dot"></div>
+    </div>
+
+    <!-- Q1 -->
+    <div class="route-step active" id="rs0">
+      <div class="route-question">В якому класі ти навчаєшся?</div>
+      <div class="route-hint">Це визначить тривалість і формат курсу</div>
+      <div class="route-options">
+        <div class="route-opt" onclick="pickOpt(this,0,'10 клас')">10 клас — буду готуватися 2 роки</div>
+        <div class="route-opt" onclick="pickOpt(this,0,'11 клас')">11 клас — НМТ вже цього року</div>
+      </div>
+    </div>
+
+    <!-- Q2 -->
+    <div class="route-step" id="rs1">
+      <div class="route-question">Який у тебе поточний рівень?</div>
+      <div class="route-hint">Будь чесним — це допоможе скласти реалістичний план</div>
+      <div class="route-options">
+        <div class="route-opt" onclick="pickOpt(this,1,'нульовий')">Майже нуль — потрібно все з початку</div>
+        <div class="route-opt" onclick="pickOpt(this,1,'середній')">Середній — щось знаю, але багато прогалин</div>
+        <div class="route-opt" onclick="pickOpt(this,1,'хороший')">Хороший — хочу довести до максимуму</div>
+      </div>
+    </div>
+
+    <!-- Q3 -->
+    <div class="route-step" id="rs2">
+      <div class="route-question">Скільки часу на день ти готовий(а) приділяти?</div>
+      <div class="route-hint">Чесна відповідь допоможе скласти реальний план</div>
+      <div class="route-options">
+        <div class="route-opt" onclick="pickOpt(this,2,'30-60хв')">30–60 хвилин — невеликими кроками</div>
+        <div class="route-opt" onclick="pickOpt(this,2,'1-2год')">1–2 години — стабільно кожного дня</div>
+        <div class="route-opt" onclick="pickOpt(this,2,'2год+')">2+ години — готовий(а) до серйозної роботи</div>
+      </div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="route-step" id="rs3">
+      <div class="route-question">Які предмети плануєш здавати на НМТ?</div>
+      <div class="route-hint">Можеш обрати один варіант, ми потім допоможемо з деталями</div>
+      <div class="route-options">
+        <div class="route-opt" onclick="pickOpt(this,3,'техніка')">Математика + точні науки (фізика, інформатика)</div>
+        <div class="route-opt" onclick="pickOpt(this,3,'медицина')">Біологія + хімія (медицина, фармація)</div>
+        <div class="route-opt" onclick="pickOpt(this,3,'гуманітаристика')">Українська мова + Історія (право, журналістика)</div>
+        <div class="route-opt" onclick="pickOpt(this,3,'мови')">Англійська мова + Гуманітарні (міжнар. відносини)</div>
+      </div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="route-step" id="rs4">
+      <div class="route-question">Що для тебе найважливіше в підготовці?</div>
+      <div class="route-hint">Обери головний пріоритет</div>
+      <div class="route-options">
+        <div class="route-opt" onclick="pickOpt(this,4,'результат')">Максимальний бал на НМТ за будь-яку ціну</div>
+        <div class="route-opt" onclick="pickOpt(this,4,'баланс')">Добрий результат і при цьому не згоріти</div>
+        <div class="route-opt" onclick="pickOpt(this,4,'бюджет')">Вступити на бюджет до обраного вузу</div>
+      </div>
+    </div>
+
+    <!-- Result -->
+    <div class="route-step" id="rsResult">
+      <div class="route-result">
+        <div class="route-result-icon" id="resultIcon">🎯</div>
+        <h3 id="resultTitle">Твій персональний маршрут готовий!</h3>
+        <p id="resultDesc">На основі твоїх відповідей ми склали рекомендації для підготовки.</p>
+        <div class="route-tags" id="resultTags"></div>
+        <a href="#form" class="btn btn-primary" style="padding:15px 36px; font-size:14px;">Записатися та отримати план</a>
+        <br><br>
+        <button onclick="restartRoute()" style="background:none;border:none;color:var(--gray);font-size:13px;cursor:pointer;font-family:inherit;font-weight:600;">← Пройти ще раз</button>
+      </div>
+    </div>
+
+    <div class="route-nav" id="routeNav" style="display:none;">
+      <button class="btn btn-primary" onclick="nextRouteStep()" style="padding:12px 30px;">Далі →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FORM -->
+<section class="form-section" id="form">
+  <div class="section-eyebrow">Заявка</div>
+  <div class="section-title">Залишити заявку</div>
+  <div class="section-sub">Залиш контакти — менеджер зв'яжеться протягом 1-2 годин та підбере найкращий формат навчання для тебе.</div>
+  <div class="form-wrap reveal">
+    <div class="form-grid">
+      <div class="form-field">
+        <label>Ім'я учня</label>
+        <input type="text" id="fName" placeholder="Наприклад, Соня">
+      </div>
+      <div class="form-field">
+        <label>Телефон батьків</label>
+        <input type="tel" id="fPhone" placeholder="+38 (0XX) XXX-XX-XX">
+      </div>
+      <div class="form-field">
+        <label>Клас</label>
+        <select id="fClass">
+          <option value="">Оберіть клас</option>
+          <option>10 клас</option>
+          <option>11 клас</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label>Предмет</label>
+        <select id="fSubject">
+          <option value="">Оберіть предмет</option>
+          <option>Математика</option>
+          <option>Українська мова</option>
+          <option>Біологія</option>
+          <option>Історія України</option>
+          <option>Англійська мова</option>
+          <option>Комплексна підготовка (5 предметів)</option>
+        </select>
+      </div>
+      <div class="form-field full">
+        <label>Запитання або коментар (необов'язково)</label>
+        <textarea id="fMessage" placeholder="Наприклад: хочемо дізнатися більше про курс для 11 класу..."></textarea>
+      </div>
+    </div>
+    <div class="form-submit">
+      <button class="btn btn-primary" onclick="submitForm()" style="padding:15px 40px; font-size:14px;">Надіслати заявку &nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d1b2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></button>
+    </div>
+    <p class="form-note">🔒 Ваші дані захищені. Ми не передаємо їх третім особам.</p>
+    <div class="form-success" id="formSuccess">
+      ✅ Дякуємо! Ваша заявка прийнята. Менеджер зв'яжеться з вами протягом 1–2 годин.
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section" id="reviews">
+  <div class="section-eyebrow">Відгуки</div>
+  <div class="section-title">Що кажуть наші учні</div>
+  <div class="section-sub">Ніхто не розповість про нас краще, ніж ті, хто вже пройшов шлях від першого заняття до омріяного бюджету.</div>
+  <div class="reviews-grid">
+    <div class="review-card reveal">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">«Завдяки KEVIN я вступила до Могилянки! Без цього курсу не уявляю, як би вийшло. Математику стала розуміти зовсім по-іншому, і 187 балів — найкраще підтвердження.»</p>
+      <div class="review-author">
+        <div class="review-ava"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <div>
+          <div class="review-name">Поліна</div>
+          <div class="review-subject">Математика · 187 балів</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">«Маю 200 з англійської! Дякую Марії за курс. Вивезла на думалці половину питань, але знала чим відповідати. Краще за будь-якого репетитора.»</p>
+      <div class="review-author">
+        <div class="review-ava"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <div>
+          <div class="review-name">Оля</div>
+          <div class="review-subject">Англійська мова · 200 балів</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">«200 з історії! У комісії запитали, хто так підготував — я одна з присутніх склала на максимум. Дякую Віці за натхнення та систему.»</p>
+      <div class="review-author">
+        <div class="review-ava"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <div>
+          <div class="review-name">Аліна</div>
+          <div class="review-subject">Історія України · 200 балів</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">«Прийшла до Соні з нуля у лютому, в червні здала біологію на 186. Потрапила до НМУ Богомольця на медицину на бюджет! Неймовірно.»</p>
+      <div class="review-author">
+        <div class="review-ava"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <div>
+          <div class="review-name">Іра</div>
+          <div class="review-subject">Біологія · 186 балів → медицина</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">«Вступила до Могилянки на першому пріоритеті! Якби не курс — не могла б навіть мріяти. Дякую, що були поруч у найважливіший момент.»</p>
+      <div class="review-author">
+        <div class="review-ava"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <div>
+          <div class="review-name">Катерина</div>
+          <div class="review-subject">Українська мова · Могилянка</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">«193 бали з математики і рекомендація на бюджет до ЛНУ! В університеті кілька разів хвалили саме за математику. 50% заслуга Анастасії.»</p>
+      <div class="review-author">
+        <div class="review-ava"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <div>
+          <div class="review-name">Юра</div>
+          <div class="review-subject">Математика · 193 бали</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANTISTRESS -->
+<section class="antistress-section" id="antistress">
+  <div class="section-eyebrow">Антистрес</div>
+  <div class="section-title" style="color:var(--white)">Антистрес перед НМТ</div>
+  <div class="section-sub">Унікальний розділ, якого немає більше ніде: поради та чеклист для дня іспиту.</div>
+
+  <div class="antistress-grid">
+
+    <!-- Tips -->
+    <div class="antistress-card reveal">
+      <h4>💡 Лайфхаки перед іспитом</h4>
+      <ul class="antistress-list">
+        <li>За тиждень до НМТ не вивчай нічого нового — повторюй те, що вже знаєш</li>
+        <li>Пий достатньо води: мозок на 73% складається з води, зневоднення = гірша концентрація</li>
+        <li>Сон 7–8 годин важливіший за нічну зубрежку — пам'ять консолідується уві сні</li>
+        <li>Техніка «помідора»: 25 хв роботи → 5 хв відпочинку → повтор</li>
+        <li>Їж «мозкову їжу»: горіхи, чорниці, темний шоколад, яйця</li>
+        <li>Не порівнюй себе з іншими — порівнюй тільки з собою вчорашнім</li>
+        <li>За день до іспиту відпочинь: кіно, прогулянка, улюблена їжа</li>
+      </ul>
+    </div>
+
+
+    <!-- Day checklist -->
+    <div class="antistress-card reveal">
+      <h4><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-alarm-clock-check-icon lucide-alarm-clock-check"><circle cx="12" cy="13" r="8"/><path d="M5 3 2 6"/><path d="m22 6-3-3"/><path d="M6.38 18.7 4 21"/><path d="M17.64 18.67 20 21"/><path d="m9 13 2 2 4-4"/></svg></svg> Чеклист «День НМТ»</h4>
+      <div class="checklist" id="nmt-checklist">
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Зарядити телефон та будильник з вечора</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Підготувати документи: паспорт/ID + запрошення</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Покласти ручки (2–3 штуки синіх) та олівці</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Взяти воду та невеликий перекус</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Виспатися — лягти не пізніше 23:00</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Поснідати: вівсянка, яйця, горіхи, вода</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Виїхати з запасом часу (30+ хвилин)</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Зробити 5 глибоких вдихів перед входом</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Уважно читати умову кожного завдання</div>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)">
+          <div class="check-box">✓</div>
+          <div class="check-text">Спочатку відповісти на легкі питання</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="section-eyebrow">FAQ</div>
+  <div class="section-title">Часті питання</div>
+  <div class="faq-list">
+    <div class="faq-item reveal">
+      <div class="faq-q" onclick="toggleFaq(this)">Скільки тривають курси і коли починати?<span class="faq-arrow">+</span></div>
+      <div class="faq-a">Для 10 класу — з січня по червень протягом двох років. Для 11 класу — 6–9 місяців (вересень–березень). Найкращий час для старту — якомога раніше, але у нас є рішення для будь-якого терміну.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-q" onclick="toggleFaq(this)">Чи є безкоштовні пробні заняття?<span class="faq-arrow">+</span></div>
+      <div class="faq-a">Так. Ми пропонуємо безкоштовну діагностику знань: пробне тестування у форматі НМТ та індивідуальну онлайн-консультацію у ZOOM з нашим викладачем (разом з батьками). Ринкова вартість такої діагностики — 800 грн.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-q" onclick="toggleFaq(this)">Що робити, якщо учень пропустить заняття?<span class="faq-arrow">+</span></div>
+      <div class="faq-a">Усі онлайн-заняття записуються і зберігаються на платформі. Якщо тема лишилась незрозумілою — можна поставити питання викладачу на наступному практикумі або звернутись до куратора.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-q" onclick="toggleFaq(this)">Яка гарантія результату?<span class="faq-arrow">+</span></div>
+      <div class="faq-a">Ми гарантуємо підвищення результату на +55 балів. Якщо учень дотримувався програми, але результат не покращився — повертаємо кошти. 147 наших учнів вже склали НМТ на 200 балів.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-q" onclick="toggleFaq(this)">Чи можна підготуватися за 1 рік з нуля?<span class="faq-arrow">+</span></div>
+      <div class="faq-a">Так. PRO-програма для 11 класу — 9 місяців системної підготовки без стресу. Завдяки системі «перевернутий клас», індивідуальному плану та підтримці куратора учень готується посильно, а не в режимі марафону.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-q" onclick="toggleFaq(this)">Які предмети доступні у KEVIN?<span class="faq-arrow">+</span></div>
+      <div class="faq-a">Основні: українська мова, математика, історія України, англійська мова, біологія. Додаткові: українська література, хімія, фізика, географія. Обирайте комбінацію, потрібну для вступу на вашу спеціальність.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-q" onclick="toggleFaq(this)">Як проходять онлайн-заняття?<span class="faq-arrow">+</span></div>
+      <div class="faq-a">Заняття проходять у форматі ZOOM. Система «перевернутий клас»: спочатку учень переглядає теоретичне відео (до 15 хв), потім на практикумі закріплює матеріал разом із викладачем. Щотижня — домашнє завдання з автоматичною перевіркою.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="cta">
+  <h2>Готові почати підготовку<br>до НМТ-2026?</h2>
+  <p>Залиште заявку — наш менеджер зв'яжеться з вами протягом 1-2 годин<br>та підбере найкращий формат навчання.</p>
+  <div class="cta-buttons">
+    <a href="tel:+380733046449" class="btn btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 24 24" fill="#ffffff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>&nbsp; 073 304 64 49</a>
+    <a href="#form" class="btn btn-primary">Залишити заявку &nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d1b2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></a>
+  </div>
+  <p style="color:rgba(255,255,255,0.3); font-size:12px; margin-top:20px; font-weight:500;">Пн–Нд, 09:00–21:00 (Київ) &nbsp;·&nbsp; Відповідаємо протягом 1–2 годин</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo"><img src="img/logo.png" alt="KEVIN"></div>
+      <p class="footer-desc">Онлайн-школа підготовки до НМТ та ЗНО. 8+ років досвіду, 16 000+ випускників, гарантія результату.</p>
+      <div class="footer-contacts">
+        <a href="tel:+380733046449"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg> +38 (073) 304 64 49</a>
+        <a href="mailto:shkolakevin@gmail.com">✉️ shkolakevin@gmail.com</a>
+        <a href="#">🕐 Пн–Нд, 09:00–21:00 (Київ)</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Предмети</h4>
+      <ul>
+        <li>Математика</li>
+        <li>Українська мова</li>
+        <li>Біологія</li>
+        <li>Історія України</li>
+        <li>Англійська мова</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Навчання</h4>
+      <ul>
+        <li><a href="#courses">Курс 10 клас</a></li>
+        <li><a href="#courses">Курс 11 клас</a></li>
+        <li><a href="#teachers">Викладачі</a></li>
+        <li><a href="#reviews">Відгуки</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Корисне</h4>
+      <ul>
+        <li><a href="#route">Маршрут НМТ</a></li>
+        <li><a href="#antistress">Антистрес</a></li>
+        <li><a href="#form">Пробне заняття</a></li>
+        <li><a href="#">Політика конфіденційності</a></li>
+        <li><a href="#">Публічний договір</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Онлайн-школа KEVIN · Всі права захищені</span>
+    <span>Розроблено з ❤️ для українських абітурієнтів</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
